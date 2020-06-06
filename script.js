@@ -30,8 +30,7 @@ function updateProgress() {
 
 // Set video time to progress 
 function setVideoProgress() {
-    console.log('setVideoProgress');
-
+    video.currentTime = (progress.value * video.duration) /git  100
 }
 
 // Stop video
